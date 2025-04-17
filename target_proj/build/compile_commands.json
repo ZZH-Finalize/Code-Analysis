@@ -1,0 +1,16 @@
+[
+{
+  "directory": "D:\\proj\\python\\Code-Analysis\\target_proj",
+  "arguments": ["gcc.exe", "-c", "-m64", "-g3", "-O0", "-o", "build\\.objs\\main\\windows\\x64\\release\\main.c.obj", "main.c"],
+  "file": "main.c"
+},
+{
+  "directory": "D:\\proj\\python\\Code-Analysis\\target_proj",
+  "arguments": ["gcc.exe", "-c", "-m64", "-g3", "-O0", "-o", "build\\.objs\\main\\windows\\x64\\release\\subdir\\test_file2.c.obj", "subdir\\test_file2.c"],
+  "file": "subdir\\test_file2.c"
+},
+{
+  "directory": "D:\\proj\\python\\Code-Analysis\\target_proj",
+  "arguments": ["gcc.exe", "-c", "-m64", "-g3", "-O0", "-o", "build\\.objs\\main\\windows\\x64\\release\\test_file1.c.obj", "test_file1.c"],
+  "file": "test_file1.c"
+}]

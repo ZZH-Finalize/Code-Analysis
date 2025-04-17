@@ -1,0 +1,5 @@
+__pycache__
+logs
+target_proj/.xmake
+target_proj/.cache
+target_proj/build/.cache

@@ -1,0 +1,59 @@
+{
+    "folders": [
+        {
+            "path": ".",
+        }
+    ],
+    "settings": {},
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "rebuild cdb",
+                "command": "xmake",
+                "type": "shell",
+                "options": {
+                    "cwd": "${workspaceFolder}/target_proj"
+                },
+                "args": [
+                    "project",
+                    "-k",
+                    "compile_commands",
+                    "--lsp=clangd",
+                    "build"
+                ],
+                "presentation": {
+                    "reveal": "always"
+                }
+            },
+            {
+                "label": "run clangd test",
+                "command": "python",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "args": [
+                    "clangd.py",
+                    "--enable-log=DEBUG"
+                ],
+                "problemMatcher": "$python",
+                "group": "test"
+            },
+            {
+                "label": "run mcp test",
+                "command": "python",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "args": [
+                    "test/mcp_client.py"
+                ],
+                "problemMatcher": "$python",
+                "group": {
+                    "kind": "test",
+                    "isDefault": true
+                }
+            },
+        ]
+    }
+}

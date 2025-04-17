@@ -1,0 +1,124 @@
+{
+    "locale": "zh-cn",
+    "rootPath": null,
+    "rootUri": null,
+    "capabilities": {
+        "textDocument": {
+            "definition": {
+                "dynamicRegistration": true,
+                "linkSupport": true
+            },
+            "documentSymbol": {
+                "dynamicRegistration": true,
+                "hierarchicalDocumentSymbolSupport": true,
+                "labelSupport": true,
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                }
+            },
+            "diagnostic": {
+                "dynamicRegistration": true,
+                "relatedDocumentSupport": false
+            },
+            "references": {
+                "dynamicRegistration": true
+            }
+        },
+        "window": {
+            "showDocument": {
+                "support": true
+            },
+            "showMessage": {
+                "messageActionItem": {
+                    "additionalPropertiesSupport": true
+                }
+            },
+            "workDoneProgress": true
+        },
+        "workspace": {
+            "applyEdit": true,
+            "configuration": true,
+            "diagnostics": {
+                "refreshSupport": true
+            },
+            "executeCommand": {
+                "dynamicRegistration": true
+            },
+            "symbol": {
+                "dynamicRegistration": true,
+                "resolveSupport": {
+                    "properties": [
+                        "location.range"
+                    ]
+                },
+                "symbolKind": {
+                    "valueSet": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26
+                    ]
+                },
+                "tagSupport": {
+                    "valueSet": [
+                        1
+                    ]
+                }
+            }
+        }
+    }
+}
